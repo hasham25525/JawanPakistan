@@ -1,0 +1,16 @@
+.bt {
+    border: none;
+    margin: 15px;
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+}
+
+.bt:hover {
+
+    transition: .072s ease;
+    font-size: 17px;
+    width: 105px;
+    height: 50px;
+    box-shadow: 0px 4px 15px black;
+}
