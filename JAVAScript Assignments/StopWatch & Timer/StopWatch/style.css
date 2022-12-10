@@ -4,11 +4,13 @@
     width: 100px;
     height: 45px;
     font-size: 16px;
+    transition: .2s ease;
+
 }
 
 .bt:hover {
 
-    transition: .072s ease;
+    transition: .2s ease;
     font-size: 17px;
     width: 105px;
     height: 50px;
