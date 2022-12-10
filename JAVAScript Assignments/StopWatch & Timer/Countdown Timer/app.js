@@ -1,16 +1,19 @@
 
 var sec = 60;
-var userHour = document.getElementById('inputHour');
-var userMin = document.getElementById('inputMins');
+
 var displayMin = document.getElementById('displayMin');
 var displaySec = document.getElementById('displaySec');
 var displayHour = document.getElementById('displayHour');
-var min = userMin.value;
-var hour = userHour.value;
+
 var interval;
 
 
 function timer() {
+
+    var userHour = document.getElementById('inputHour');
+    var userMin = document.getElementById('inputMins');
+    var min = userMin.value;
+    var hour = userHour.value;
     sec--;
 
     if (sec == 0) {
@@ -27,6 +30,9 @@ function timer() {
     displayMin.innerHTML = min;
     displaySec.innerHTML = sec;
 
+    if (min == 0 && sec == 0) {
+        clearInterval(interval);
+    }
 }
 
 
