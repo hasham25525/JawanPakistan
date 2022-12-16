@@ -6,6 +6,7 @@ body {
     background-color: #b8c6db;
     background-image: linear-gradient(100deg, #2e006f 0%, #92005f 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 main {
@@ -13,7 +14,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 91.5vh;
+    height: 100vh;
     overflow: hidden;
     margin: 0;
 }
@@ -34,7 +35,7 @@ main {
     color: #fff;
     border-radius: 10px;
     border: none;
-    box-shadow: 5px 7px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 70px rgba(142, 142, 142, 0.963);
     width: 600px;
     overflow: hidden;
 }
