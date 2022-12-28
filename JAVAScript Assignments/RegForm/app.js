@@ -34,10 +34,6 @@ var dobInp = document.getElementById('DOB');
 // var avatarInp = document.getElementById('UploadAvatar');
 // var countryInp = document.getElementById('Country');
 
-function register() {
-
-}
-
 window.register = function () {
     var obj = {
         name: nameInp.value,
